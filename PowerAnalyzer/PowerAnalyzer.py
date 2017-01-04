@@ -93,8 +93,12 @@ def getBootReason(path):
     return "unknow"
 
 def getBootVersion(path):
-    with open(path+'\\'+VERSIONFILE) as f:
-        return f.readline()
+	verPath=path+'\\'+VERSIONFILE
+	if os.path.isfile(verPath):
+		with open(path+'\\'+VERSIONFILE) as f:
+			return f.readline()
+	else:
+		return "no version"
 
 def getLogcatPath(path):
     lc_path=path+LOGCAT_PATH
