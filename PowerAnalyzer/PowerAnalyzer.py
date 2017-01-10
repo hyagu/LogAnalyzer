@@ -70,6 +70,7 @@ def main():
                     for line in infile:
                         if testPattern(line,pattern):
                             print ("."),
+                            line = '['+log.split("\\")[2]+']\t'+line
                             f.write(line)
         
     print ("\nwrite to "+f.name)
