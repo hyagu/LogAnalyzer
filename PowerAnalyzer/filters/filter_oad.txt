@@ -1,0 +1,6 @@
+state entered
+ HtvCloneTaskService: intent action =
+ OADFSMService clone:
+ AutoUpgrade:(.+)called
+Inside OnDownloadStateChanged
+Inside OnOADDownloadProgressChanged with
