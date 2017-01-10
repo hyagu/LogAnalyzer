@@ -1,0 +1,9 @@
+state entered
+ HtvCloneTaskService: intent action =
+ OADFSMService clone:
+ OADFSMService: send download
+ AutoUpgrade:(.+)called
+Inside OnDownloadStateChanged
+Inside OnOADDownloadProgressChanged with
+cbmhgoad_mswupdt:(.+)Version
+upgrade/cbmhgoad_mswupdt: cbmhgoad_mswupdt: chil_test_software(.+)Version =
