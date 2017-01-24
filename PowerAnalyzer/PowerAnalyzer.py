@@ -54,7 +54,7 @@ def main():
 
         f.write('--------------------\n')
         reason = getBootReason(bP)
-        f.write(bP[2:]+'\n')
+        f.write('['+bP[2:]+'] ')
         f.write('Boot Reason = '+reason+'\n')
         print 'Boot Reason = '+reason
         
